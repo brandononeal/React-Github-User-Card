@@ -17,7 +17,6 @@ class App extends React.Component {
     fetch(`https://api.github.com/users/${username}`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         this.setState({
           userData: data,
         });
@@ -31,7 +30,6 @@ class App extends React.Component {
     fetch(`https://api.github.com/users/${username}/followers`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         this.setState({
           followerData: data,
         });
