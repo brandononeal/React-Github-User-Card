@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 150px;
+}
+
+.App {
+  text-align: center;
+}
+
+.user-container {
+  margin-bottom: 2%;
+}
+
+.follower-container {
+  margin-bottom: 3%;
+}
